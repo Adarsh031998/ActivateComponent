@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import './font-faces';
 @import './variables';
 @import './mixins';
 @import 'react-toastify/dist/ReactToastify.css';
 @import 'react-datetime/css/react-datetime.css';
-
+// @import 'node_modules/bootstrap/scss/bootstrap.scss';
 html {
   scroll-behavior: smooth;
 }

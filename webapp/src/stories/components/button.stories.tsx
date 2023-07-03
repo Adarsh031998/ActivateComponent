@@ -6,9 +6,15 @@ const meta: Meta<typeof Button> = {
 };
 export default meta;
 type Story = StoryObj<typeof Button>;
-export const Primary: Story = {
+export const TailwindPrimary: Story = {
   args: {
-    className: 'bg-primary-900 rounded-md text-white p-2 flex items-center',
+    className: 'bg-primary-900 rounded-1 text-white p-2 d-flex items-center',
+    children: 'Click me!'
+  }
+};
+export const BootstrapPrimary: Story = {
+  args: {
+    className: 'bg-primary rounded-md text-white p-2 flex items-center',
     children: 'Click me!'
   }
 };
