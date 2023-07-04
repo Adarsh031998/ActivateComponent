@@ -7,13 +7,23 @@
 @import './mixins';
 @import 'react-toastify/dist/ReactToastify.css';
 @import 'react-datetime/css/react-datetime.css';
+
+@include font-sizes(8, 32);
+@include font-weights(50, 900);
+@include line-heights(0, 50);
+@include letter-spacings(0, 100);
+@include margin(6, 100);
+@include padding(6, 100);
+@include border-radius(0,100);
+@include absolute-direction(right,0,100);
+@include absolute-direction(left,0,100);
+
 html {
   scroll-behavior: smooth;
 }
 
 @layer base {
   html {
-    font-family: 'Inter', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
   }

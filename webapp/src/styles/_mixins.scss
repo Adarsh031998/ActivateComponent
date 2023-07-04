@@ -29,3 +29,120 @@
     }
   }
 }
+@mixin font-sizes($start, $end) {
+  @for $i from $start through $end {
+    .fs-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+}
+@mixin font-weights($start, $end) {
+  $increment: 50;
+
+  @for $i from $start through $end {
+    .fw-#{$i} {
+      font-weight: #{$i} !important;
+    }
+
+    $start: $start + $increment;
+  }
+}
+
+@mixin line-heights($start, $end) {
+  @for $i from $start through $end {
+    .lh-#{$i} {
+      line-height: #{$i}px !important; // Use whatever unit you need
+    }
+  }
+}
+
+@mixin letter-spacings($start, $end) {
+  @for $i from $start through $end {
+    .ls-#{$i} {
+      letter-spacing: #{$i}px !important; // Use whatever unit you need
+    }
+  }
+}
+////
+
+///
+
+//all 4 in single
+
+@mixin margin($start, $end) {
+  @for $i from $start through $end {
+    .mt-#{$i} {
+      margin-top: #{$i}px !important;
+    }
+    .mb-#{$i} {
+      margin-bottom: #{$i}px !important;
+    }
+    .ml-#{$i} {
+      margin-left: #{$i}px !important;
+    }
+    .mr-#{$i} {
+      margin-right: #{$i}px !important;
+    }
+    .mx-#{$i} {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+    .my-#{$i} {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+    .m-#{$i} {
+      margin-top: #{$i}px !important;
+      margin-right: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+  }
+}
+
+@mixin padding($start, $end) {
+  @for $i from $start through $end {
+    .pt-#{$i} {
+      padding: #{$i}px !important;
+    }
+    .pb-#{$i} {
+      padding-bottom: #{$i}px !important;
+    }
+    .pl-#{$i} {
+      padding-left: #{$i}px !important;
+    }
+    .pr-#{$i} {
+      padding-right: #{$i}px !important;
+    }
+    .px-#{$i} {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+    .py-#{$i} {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+    .p-#{$i} {
+      padding-top: #{$i}px !important;
+      padding-right: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+
+@mixin border-radius($start, $end) {
+  @for $i from $start through $end {
+    .br-#{$i} {
+      border-radius: #{$i}px !important;
+    }
+  }
+}
+@mixin absolute-direction($dir,$start,$end) {
+  @for $i from $start through $end {
+    .#{$dir}-#{$i} {
+      #{$dir}: #{$i}px !important;
+    }
+  }
+}
