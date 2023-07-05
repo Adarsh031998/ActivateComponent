@@ -8,6 +8,7 @@ interface ButtonPros {
   className?: string;
   onClick?: () => void;
   disabled?: boolean;
+  style?: any;
 }
 
 /**
@@ -16,17 +17,14 @@ interface ButtonPros {
  * @returns
  */
 const Index: FunctionComponent<ButtonPros> = (props) => {
-  const { children, className, onClick, type, disabled } = props;
+  const { children, className, onClick, type, disabled, style } = props;
   return (
     <button
       disabled={disabled}
       type={type}
       onClick={onClick}
-      className={mergeCls([
-        className,
-        disabled && 'cursor-not-allowed',
-        'rounded-md h-10 text-sm px-5 py-2.5 text-center'
-      ])}
+      style={style}
+      className={className}
     >
       {children}
     </button>

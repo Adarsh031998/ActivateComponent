@@ -81,3 +81,8 @@ h6 {
 .rdtPicker .dow {
   color: #9a9a9a;
 }
+.themeAccordian{
+  .collapse{
+    visibility: inherit !important;
+  }
+}
