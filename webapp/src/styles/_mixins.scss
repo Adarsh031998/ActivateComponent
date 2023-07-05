@@ -146,3 +146,15 @@
     }
   }
 }
+@each $color in map-keys($cuscolors) {
+  $value: map-get($cuscolors, $color);
+  .text-#{$color} {
+    color: $value;
+  }
+  .bg-#{$color} {
+    background-color: $value;
+  }
+  .border-#{$color} {
+    border-color: $value;
+  }
+}

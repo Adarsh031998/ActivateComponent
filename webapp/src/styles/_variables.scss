@@ -8,3 +8,114 @@ $grid-breakpoints: (
 
 // Transition
 $transition-standard: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+$purple: #5349b4;
+$offwhite: #fbfbfb;
+$white: #ffff;
+$defaultgray: #636b7b;
+$lightgray: #a1a6ad;
+$lightergrey: #d1d4d6;
+$extralightgrey: #f4f4f4;
+$offblack: #050a19;
+$orange: #f2994a;
+$green: #219653;
+$red: #dc3545;
+$blue: #123954;
+$lightblue: #edf6fd;
+$danger: #eb5757;
+$darkElectricBlue: #636b78;
+$lime: #efffaa;
+$gray: #e5e5e5;
+$dark-black: #111111;
+$very-light-grey: #cbcbcb;
+$whisper: #e7e7e7;
+$harlequin: #2fff00;
+$grey: #838383;
+$cool-gray: #a2acae;
+$solid-black: #122833;
+$linkColor: #205775;
+$background-color-sky: #f2f5f7;
+$white-hover: darken($white, 5%);
+$black-bg: #292929;
+$dot-color: #bbb;
+$grey-dark: #0a1f44; //High Emphasis //Dark-900
+$left-container-bg: #efefef;
+$form_field-text: #e4e4e4;
+$form-bg: #4e4e4e;
+$photo-bg: #7b7b7b;
+$desc-bg: #3c3c3c;
+$script-bg: #5a5a5a;
+$input-border: #f5faff;
+$error-base: #dd2727;
+$error-base-hover: darken($error-base, 5%);
+$black: #000000;
+$soft-black: #222222;
+$light-white: #fafafa;
+$soft-light: #f6f6f6;
+$light-gray: #3f3b3b;
+$dark-gray: #f4f4f6;
+$gray-metal: #656565;
+$sale-red: #b43a3a;
+$mid-blue: #d6e2ec;
+$mid-green: #d5e5de;
+$light-green: #ecf4f1;
+$mid-red: #eec1c6;
+$light-red: #fdf2f2;
+$chat-bg: #f9f9f9;
+$silver: #f2f2f2;
+
+$cuscolors: (
+  'purple': $purple,
+  'offwhite': $offwhite,
+  'white': $white,
+  'defaultgray': $defaultgray,
+  'lightgray': $lightgray,
+  'lightergrey': $lightergrey,
+  'offblack': $offblack,
+  'extralightgrey': $extralightgrey,
+  'orange': $orange,
+  'green': $green,
+  'red': $red,
+  'blue': $blue,
+  'lightblue': $lightblue,
+  'danger': $danger,
+  'darkElectricBlue': $darkElectricBlue,
+  'lime': $lime,
+  'gray': $gray,
+  'dark-black': $dark-black,
+  'very-light-grey': $very-light-grey,
+  'whisper': $whisper,
+  'harlequin': $harlequin,
+  'grey': $grey,
+  'cool-gray': $cool-gray,
+  'solid-black': $solid-black,
+  'linkColor': $linkColor,
+  'background-color-sky': $background-color-sky,
+  'white-hover': darken($white, 5%),
+  'black-bg': $black-bg,
+  'dot-color': $dot-color,
+  'grey-dark': $grey-dark,
+  'left-container-bg': $left-container-bg,
+  'form_field-text': $form_field-text,
+  'form-bg': $form-bg,
+  'photo-bg': $photo-bg,
+  'desc-bg': $desc-bg,
+  'script-bg': $script-bg,
+  'input-border': $input-border,
+  'error-base': $error-base,
+  'error-base-hover': darken($error-base, 5%),
+  'black': $black,
+  'soft-black': $soft-black,
+  'light-white': $light-white,
+  'soft-light': $soft-light,
+  'light-gray': $light-gray,
+  'dark-gray': $dark-gray,
+  'gray-metal': $gray-metal,
+  'sale-red': $sale-red,
+  'mid-blue': $mid-blue,
+  'mid-green': $mid-green,
+  'light-green': $light-green,
+  'mid-red': $mid-red,
+  'light-red': $light-red,
+  'chat-bg': $chat-bg,
+  'silver': $silver,
+) !default;
